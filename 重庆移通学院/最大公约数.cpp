@@ -22,7 +22,7 @@ using namespace std;
  
 int main(){
     int i,m;
-    cin>>i;
+    cin >> i;
     for(m = 2;m <= i;m++){
         if(i%m == 0)break;
     }
